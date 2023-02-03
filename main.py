@@ -14,7 +14,7 @@ def index():
 def gen(camera):
     while True:
         frame = camera.get_frame() #call get_frame() function from camera
-        yield (b'--frame\r\n'                                                   #also shows image in bytes format to normal format ;)
+        yield (b'--frame\r\n' #also shows image in bytes format to normal format ;)
                 b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
 @app.route('/video_frame')
