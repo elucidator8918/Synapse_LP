@@ -1,2 +1,3 @@
 # Synapse_LP
-Learning Period 
+
+Deployed the CV Model using Flask
