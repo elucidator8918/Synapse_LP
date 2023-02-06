@@ -1,2 +1,3 @@
 # Synapse_LP
-Learning Period 
+
+IDK smtg is wrong
